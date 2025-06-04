@@ -1,0 +1,3 @@
+Run,P,R,mAP,Params(M)
+baseline,87.2,83.6,89.4,37.31
+method,90.1,82.5,89.5,37.85

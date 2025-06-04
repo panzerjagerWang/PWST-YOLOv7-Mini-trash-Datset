@@ -1,0 +1,11 @@
+# YOLOv5 🚀 by Ultralytics, GPL-3.0 license
+
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+train: /home/HD/hhupa/Dataset/Detection/CODEBRIM2/train/images  # train images (relative to 'path')  600 images
+val: /home/HD/hhupa/Dataset/Detection/CODEBRIM2/val/images  # val images (relative to 'path')  200 images
+test: /home/HD/hhupa/Dataset/Detection/CODEBRIM2/test/images  # test images (optional)  200 images
+
+# Classes
+nc: 4  # number of classes
+names: ['Crack', 'Corrosion', 'Spallation', 'ExposedBars']

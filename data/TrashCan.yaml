@@ -1,0 +1,17 @@
+
+
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+# path: /home/HD/hhupa/Dataset/Detection/trash_ICRA19/dataset  # dataset root dir
+train: /home/w/yolo_ws/yolo_all_cls/train/images  # train images (relative to 'path')  600 images
+val: /home/w/yolo_ws/yolo_all_cls/val/images  # val images (relative to 'path')  200 images
+test: /home/w/yolo_ws/yolo_all_cls/test/images  # test images (optional)  200 images
+
+# Classes
+nc: 22
+names:
+  [rov, plant, animal_fish, animal_starfish, animal_shells, animal_crab,
+   animal_eel, animal_etc, trash_clothing, trash_pipe, trash_bottle,
+   trash_bag, trash_snack_wrapper, trash_can, trash_cup, trash_container,
+   trash_unknown_instance, trash_branch, trash_wreckage, trash_tarp,
+   trash_rope, trash_net]
