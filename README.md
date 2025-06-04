@@ -1,17 +1,56 @@
-# PWST-YOLOv7-Mini-trash-Datset
-Opensourced PWST-YOLOv7 code and the Mini-trash dataset file. The article is current under revision with the IEEE Journal of Oceanic Engineering (JOE)
+# PWST-YOLOv7-Mini-Trash-Dataset
 
-Here is the Mini-Trash dataset we maded and uesed in the PWST-YOLOv7 Paper: 
-https://drive.google.com/file/d/1U1b-TxiKt6ug3hq_tWohX3pILj45QrmR/view?usp=drive_link
+This repository contains the **PWST-YOLOv7** code and the Mini-Trash dataset used in our paper, which is currently under minor revision for the *IEEE Journal of Oceanic Engineering (JOE)*.
 
-Furthermore, here is the TrashCan dataset we transformed into the YOLO format:
-https://drive.google.com/file/d/1n957_9mqipm7uBjQgtCaMk8JpsJT624R/view?usp=drive_link
+## Table of Contents
 
-Both datasets are processed into the YOLO dataset format, which has the file structure as:
-    -yolo_all_cls/
-    -train/ 
-    images/…  labels/…
-    -val/   
-    images/…  labels/…
-    -test/  
-    images/…  labels/…
+- [Introduction](#introduction)
+- [Datasets](#datasets)
+- [Pre-trained Weights](#pre-trained-weights)
+- [Dataset Structure](#dataset-structure)
+- [Citation](#citation)
+
+---
+
+## Introduction
+
+This project provides open access to our custom Mini-Trash dataset and associated YOLOv7 models for underwater trash detection. Both the dataset and code are intended for academic and non-commercial use.
+
+---
+
+## Datasets
+
+- **Mini-Trash Dataset**  
+  *The dataset created and used in the PWST-YOLOv7 paper*  
+  [Download Link](https://drive.google.com/file/d/1U1b-TxiKt6ug3hq_tWohX3pILj45QrmR/view?usp=drive_link)
+
+- **TrashCan Dataset (YOLO format)**  
+  *Original TrashCan dataset, transformed to YOLO format*  
+  [Download Link](https://drive.google.com/file/d/1n957_9mqipm7uBjQgtCaMk8JpsJT624R/view?usp=drive_link)
+
+---
+
+## Pre-trained Weights
+
+- **YOLOv7 Baseline (TrashCan Dataset)**  
+  [Download](https://drive.google.com/file/d/1hwrDN7miv_XTjPGIa0TXZhIevmwdIN9d/view?usp=drive_link)
+
+- **PWST-YOLOv7 (TrashCan Dataset)**  
+  [Download](https://drive.google.com/file/d/1yo8BE50DF5xY8qfWSVezh6-U1oMvtk8K/view?usp=drive_link)
+
+---
+
+## Dataset Structure
+
+Both datasets are provided in YOLO format, organized as follows:
+```plaintext
+yolo_all_cls/
+├── train/
+│   ├── images/
+│   └── labels/
+├── val/
+│   ├── images/
+│   └── labels/
+└── test/
+    ├── images/
+    └── labels/
