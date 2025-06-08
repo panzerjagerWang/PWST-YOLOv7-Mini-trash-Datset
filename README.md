@@ -1,7 +1,9 @@
 
 # PWST-YOLOv7-Mini-Trash-Dataset
 
-This repository contains the **PWST-YOLOv7** code and the Mini-Trash dataset used in our paper, which is currently under minor revision for the *IEEE Journal of Oceanic Engineering (JOE)*.
+This repository contains the **PWST-YOLOv7** code and the Mini-Trash dataset used in our paper, which is currently under consideration by the Journal of Ocean Engineering.
+
+Main Contributors came from the Hohai University and Shanghai Jiao Tong University: Zhuoyuan Chen, Kaijun Shen, Jiaqing Wang
 
 ## Table of Contents
 
